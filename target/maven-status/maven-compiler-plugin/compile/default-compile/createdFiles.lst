@@ -1,0 +1,11 @@
+org/smartsheep/addonssheep/TabComplete.class
+SimpleCraft/SimpleCraftCore.class
+MessageSender/MessageSenderCore.class
+org/smartsheep/addonssheep/CommandsCore.class
+CodeExec/CodeExecCore.class
+org/smartsheep/addonssheep/MovementCommandWareHouse.class
+org/smartsheep/addonssheep/ListenerCore.class
+SimpleCraft/SimpleCraftRecipeManager.class
+org/smartsheep/addonssheep/MainClass.class
+ChestGUI/CoreGiftpack.class
+org/smartsheep/addonssheep/OpenCommandWareHouse.class

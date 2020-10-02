@@ -1,0 +1,25 @@
+name: AddonsSheep
+version: 0.5.1
+main: org.smartsheep.addonssheep.MainClass
+api-version: "1.16"
+authors: [ LittleSheep ]
+description: The is useful addons
+website: www.github.com/LittleSheep2010
+
+commands:
+  movement:
+    description: Movement command can tp, move and fly!
+    usage: §c/movement <Subcommand> [Value|Subcommand]
+    permission: AddonsSheep.all
+    permission-message: §4You don't have this permission --> AddonsSheep.all
+
+  open:
+    description: Open Server admin set giftBox command!
+    usage: §c/open <OpenBoxName>
+    permission: AddonsSheep.all
+    permission-message: §4You don't have this permission --> AddonsSheep.all
+
+permissions:
+  AddonsSheep.all:
+    description: AddonsSheep all player permission
+    default: true

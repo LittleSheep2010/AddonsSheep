@@ -1,0 +1,93 @@
+# If you change any sittings
+# Don't need restart server
+# Only in console Enter [reload] command to reload Config !
+
+
+# About welcomeMessage sittings
+welcomeMessage:
+
+  # 0 is Enable | 1 is Disable
+  enableWelcomeMessage: 0
+
+  # 0 is Enable | 1 is Disable
+  # On player login send a title
+  enablePlayerLoginTitle: 1
+
+  # Player login title contents
+  playerLoginTitleContents: ""
+  playerLoginSubtitleContents: ""
+
+  # Server name is on player login server tell player message
+  serverName: "CodeCraft"
+
+
+# About chatMessage sittings
+chatMessage:
+
+  # Auto format message
+  # 0 is Enable | 1 is Disable
+  autoFormatEnable: 0
+
+  # Admin prefix
+  # 0 is Enable | 1 is Disable
+  showAdminPrefix: 0
+
+  # Level prefix
+  # 0 is Enable | 1 is Disable
+  showLevelPrefix: 0
+
+
+# About simpleCraft subPlugin sittings
+simpleCraft:
+
+  # Enable simpleCraft subPlugin
+  # 0 is Enable | 1 is Disable
+  simpleCraftEnable: 0
+
+
+# About movementConfig sittings
+movementConfig:
+
+  # 1 is need | 0 is not need
+  flyNeedAdmin: 1
+
+  # main City point
+  # 0 is Enable | 1 is Disable
+  enableMainCity: 0
+  mainCityX: 0
+  mainCityY: 0
+  mainCityZ: 0
+
+
+# About gift Box sittings
+giftBoxConfig:
+
+  # Enable giftBox
+  # 0 is Enable | 1 is Disable
+  enableGiftBox: 1
+
+  # Gift box Title
+  giftBoxTitle: "迎国庆礼盒"
+
+  # Gift box can Unlimited claim ?
+  # 0 is Disable | 1 is Enable
+  giftBoxUnlimitedClaim: 0
+
+  # Gift box Item
+  # You can Look https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  # Write like This: DIAMOND
+  # Please don't add "Material."
+  giftBoxItems: [DIAMOND]
+
+  # Gift box Item count
+  # Please check ID
+  giftBoxItemsCount: [9]
+
+  # GiftBox slot
+  # Default 9
+  # Min 9
+  giftBoxSlot: 9
+
+  # Gift Box claimed players
+  claimedPlayers:
+    -
